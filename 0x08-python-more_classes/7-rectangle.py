@@ -1,4 +1,5 @@
- a Rectangle class."""
+#!/usr/bin/python3
+"""Defines a Rectangle class."""
 
 
 class Rectangle:
@@ -81,6 +82,6 @@ class Rectangle:
         return (rect)
 
     def __del__(self):
-        """Print a message for every deletion of a Rectangle."""
+        """Display  message for every deletion of single Rectangle."""
         type(self).number_of_instances -= 1
         print("Bye rectangle...")
